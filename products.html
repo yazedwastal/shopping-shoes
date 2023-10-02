@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo-5.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>منتجاتنـا</title>
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;1,100&family=Borel&family=Cairo:wght@300&family=Lobster&family=Lora:ital@1&display=swap');
+      </style>
+      <nav>
+        <div class="toggle white-togg">
+            <i class="fa-solid fa-list"></i>
+        </div> 
+        <span class="close">X</span>
+        <div class="cart-all">
+            <i class="fa-solid fa-cart-shopping cart-icon"><!-- <span>0</span> --></i>
+            <!-- <i class="fa-solid fa-heart"></i>
+            <i class="fa-solid fa-user"></i> -->
+       </div>
+        <ul>
+             <li><a href="index.html">الرئيسية</a></li>
+             <li><a class="#" href="products.html">منتجاتنا</a></li>
+             <li><a href="index.html">من نحن</a></li>
+             <li><a href="index.html">تواصل معنا</a></li>
+        </ul>
+        <div class="logo">
+            <a href="index.html"><h1><span>يـزيـد</span> | Shopping <i class="fa-solid fa-cart-arrow-down"></i></h1></a>          
+        </div>
+     </nav>
+     <!--Cart-->
+     <div class="cart">
+        <h2 class="cart-title">عربة التسوق الخاص بك</h2>
+        <div class="cart-content">
+            
+        </div>
+        <!--Total Price-->
+        <div class="total">
+            <h4 class="total-title">السعر الكلي</h4>
+            <span class="totla-price">₪ 0</span>
+        </div>
+        <!--Buy Button-->
+        <button class="btn-buy">إشتري الان</button>
+        <!--Cart Close-->
+        <i class="fa-solid fa-xmark" id="close-cart"></i>
+     </div>
+      <sectoin id="products">
+        <div class="name-pro">
+            <h2>منتجاتنا</h2>
+        </div>
+        <div class="container-pro">
+            <div class="controls">
+                <button type="button" class="control" data-filter="all">الكل</button>
+                <details>
+                    <summary>أحذية رجالي</summary>
+                    <button type="button" class="control" data-filter=".black">
+                        رجالي أسمر اللون
+                    </button>
+                    <button type="button" class="control" data-filter=".white">
+                        رجالي أبيض اللون
+                    </button>
+                   <button type="button" class="control" data-filter=".red">
+                        رجالي أحمر اللون
+                    </button>
+                    <button type="button" class="control" data-filter=".blue">
+                        رجالي أزرق اللون
+                    </button>
+                </details> 
+                <details>
+                    <summary>أحذية نسائي</summary>
+                    <button type="button" class="control" data-filter=".black">
+                        نسائي أسمر اللون
+                    </button>
+                    <button type="button" class="control" data-filter=".white">
+                        نسائي أبيض اللون
+                    </button>
+                    <button type="button" class="control" data-filter=".green">
+                        نسائي أخضر اللون
+                    </button>
+                    <button type="button" class="control" data-filter=".pink">
+                        نسائي زهري اللون
+                    </button>
+                </details>
+            </div>
+            <div class="ltr-pro products">
+                
+                  <!--2-->
+                 <div class="mix black">
+                        <div class="sh-img">
+                            <img src="img/black-shoes-man/shoes-type2-4-1.png" class="product-img">
+                        </div>
+                        <div class="inf-pro">
+                            <h2 class="product-title">Nike black M</h2>
+                            <div>
+                                <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            </div>
+                            <h3><del>65₪ </del><span class="price">35₪ </span></h3>
+                        </div>
+                            <button class="add-cart">إضافة إلى السلة</button>
+                            <button class="more"><a href="man-prod1.html">المزيد</a></button>
+                        </div>
+                 <!--3-->
+                 <div class="mix black">
+                        <div class="sh-img">
+                            <img src="img/black-shoes-man/shoes-type3-3-1.png" class="product-img">
+                        </div>
+                        <div class="inf-pro">
+                            <h2 class="product-title">Nike black MW</h2>  
+                            <div>
+                                <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            </div>
+                            <h3><del>80₪ </del><span class="price">40₪ </span></h3>
+                        </div>
+                            <button class="add-cart">إضافة إلى السلة</button>
+                            <button class="more"><a href="man-prod1.html">المزيد</a></button>
+                        </div>
+                 <!--4-->
+                 <div class="mix black">
+                        <div class="sh-img">
+                            <img src="img/black-shoes-man/shoes-type4-1-1.png" class="product-img">
+                        </div>
+                        <div class="inf-pro">
+                            <h2 class="product-title">Nike black World MW</h2>
+                            <div>
+                                <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            </div>
+                            <h3><del>110₪ </del><span class="price">55₪ </span></h3>
+                        </div>
+                            <button class="add-cart">إضافة إلى السلة</button>
+                            <button class="more"><a href="man-prod1.html">المزيد</a></button>
+                        </div>
+                 <!--5-->
+                 <div class="mix black">
+                        <div class="sh-img">
+                            <img src="img/black-shoes-man/shoes-type5-2-1.jpg" class="product-img">
+                        </div>
+                        <div class="inf-pro">
+                            <h2 class="product-title">Nike black sm MW</h2>
+                            <div>
+                                <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            </div>
+                            <h3><del>70₪ </del><span class="price">35₪ </span></h3>
+                        </div>
+                            <button class="add-cart">إضافة إلى السلة</button>
+                            <button class="more"><a href="man-prod1.html">المزيد</a></button>
+                        </div>
+                 <!--6-->
+                 
+                 <!--7-->
+                 <div class="mix black">
+                        <div class="sh-img">
+                            <img src="img/black-shoes-man/shoes-type7-1-1.jpg" class="product-img">
+                        </div>
+                        <div class="inf-pro">
+                            <h2 class="product-title">Black Shoes Am</h2>
+                            <div>
+                                <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            </div>
+                            <h3><del>100₪ </del><span class="price">50₪ </span></h3>
+                        </div>           
+                            <button class="add-cart">إضافة إلى السلة</button>
+                            <button class="more"><a href="man-prod1.html">المزيد</a></button>
+                        </div>
+                 <!--8-->
+                
+                 <!--9-->
+                 <div class="mix blue">
+                        <div class="sh-img">
+                            <img src="img/blue-shoes-man/shoes-type1-1-1.jpg" class="product-img">
+                        </div>
+                        <div class="inf-pro">
+                            <h2 class="product-title">Nike Shoes Blue MW</h2>
+                            <div>
+                                <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            </div>
+                            <h3><del>50₪ </del><span class="price">25₪ </span></h3>
+                        </div>               
+                            <button class="add-cart">إضافة إلى السلة</button>
+                            <button class="more"><a href="man-prod1.html">المزيد</a></button>
+                        </div>
+                 <!--10-->
+                 <div class="mix blue">
+                        <div class="sh-img">
+                            <img src="img/blue-shoes-man/shoes-type2-3-1.jpg" class="product-img"> 
+                        </div>
+                        <div class="inf-pro">
+                            <h2 class="product-title">Nike Shoes Blue </h2>
+                            <div>
+                                <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            </div>
+                            <h3><del>70₪ </del><span class="price">35₪ </span></h3>
+                        </div>                      
+                            <button class="add-cart">إضافة إلى السلة</button>
+                            <button class="more"><a href="man-prod1.html">المزيد</a></button>
+                        </div>
+                 <!--11-->
+                 <div class="mix blue">
+                        <div class="sh-img">
+                            <img src="img/blue-shoes-man/shoes-type4-4-1.jpg" class="product-img">
+                        </div>
+                        <div class="inf-pro">
+                            <h2 class="product-title">Nike Shoes Blue Sadaa</h2>   
+                            <div>
+                                <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            </div>
+                            <h3><del>50₪ </del><span class="price">25₪ </span></h3>
+                        </div>                        
+                            <button class="add-cart">إضافة إلى السلة</button>
+                            <button class="more"><a href="man-prod1.html">المزيد</a></button>
+                        </div>
+                 <!--12-->
+                 <div class="mix green">
+                        <div class="sh-img">
+                            <img src="img/green-shoes-man/shoes-type2-2-1.png" class="product-img">
+                        </div>
+                        <div class="inf-pro">
+                            <h2 class="product-title">Nike Shoes Green</h2>
+                            <div>
+                                <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            </div>
+                            <h3><del>70₪ </del><span class="price">35₪ </span></h3>
+                        </div>                       
+                            <button class="add-cart">إضافة إلى السلة</button>
+                            <button class="more"><a href="man-prod1.html">المزيد</a></button>
+                        </div>
+                 <!--13-->
+                 <div class="mix green">
+                        <div class="sh-img">
+                            <img src="img/green-shoes-man/shoes-type4-2-1.png" class="product-img">
+                        </div>
+                        <div class="inf-pro">
+                            <h2 class="product-title">Nike Shoes Green sadaa</h2>
+                            <div>
+                                <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            </div>
+                            <h3><del>50₪ </del><span class="price">25₪ </span></h3>
+                        </div>   
+                            <button class="add-cart">إضافة إلى السلة</button>
+                            <button class="more"><a href="man-prod1.html">المزيد</a></button>
+                        </div>
+                 <!--14-->
+                 <div class="mix green">
+                        <div class="sh-img">
+                            <img src="img/green-shoes-man/shoes-type5-4-1.png" class="product-img">
+                        </div>
+                        <div class="inf-pro">
+                            <h2 class="product-title">Nike Shoes Green Sm</h2>
+                            <div>
+                                <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            </div>
+                            <h3><del>70₪ </del><span class="price">35₪ </span></h3>
+                        </div>
+                            <button class="add-cart">إضافة إلى السلة</button>
+                            <button class="more"><a href="man-prod1.html">المزيد</a></button>
+                        </div>
+                 <!--15-->
+                
+                 <!--16-->
+                 <div class="mix red">
+                        <div class="sh-img">
+                            <img src="img/red-shoes-man/shoes-type4-3-1.png" class="product-img">
+                        </div>
+                        <div class="inf-pro">
+                            <h2 class="product-title">Nike Shoes Red</h2>
+                            <div>
+                                <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            </div>
+                            <h3><del>50₪ </del><span class="price">25₪ </span></h3>
+                        </div>
+                            <button class="add-cart">إضافة إلى السلة</button>
+                            <button class="more"><a href="man-prod1.html">المزيد</a></button>
+                        </div>
+                  <!--17-->
+                  <div class="mix pink">
+                        <div class="sh-img">
+                            <img src="img/women-pink-color/shoes-type1-3-1.png" class="product-img">  
+                        </div>
+                        <div class="inf-pro">
+                            <h2 class="product-title">Nike Shoes pink</h2>
+                            <div>
+                                <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            </div>
+                            <h3><del>50₪ </del><span class="price">25₪ </span></h3>
+                        </div>
+                            <button class="add-cart">إضافة إلى السلة</button>
+                            <button class="more"><a href="man-prod1.html">المزيد</a></button>
+                        </div>
+                  <!--18-->
+                  <div class="mix pink">
+                        <div class="sh-img">
+                            <img src="img/women-pink-color/shoes-type3-2-1.png" class="product-img">
+                        </div>
+                        <div class="inf-pro">
+                            <h2 class="product-title">Nike Shoes Pink sadaa</h2>
+                            <div>
+                                <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            </div>
+                            <h3><del>90₪ </del><span class="price">45₪ </span></h3>
+                        </div>
+                            <button class="add-cart">إضافة إلى السلة</button>
+                            <button class="more"><a href="man-prod1.html">المزيد</a></button>
+                        </div>
+                  <!--19-->
+                  <div class="mix pink">
+                        <div class="sh-img">
+                            <img src="img/women-pink-color/shoes-type5-1-1.jpg" class="product-img"> 
+                        </div>
+                        <div class="inf-pro">
+                            <h2 class="product-title">Nike Shoes Pink sadaa2</h2>
+                            <div>
+                                <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            </div>
+                            <h3><del>70₪ </del><span class="price">35₪ </span></h3>
+                        </div>
+                            <button class="add-cart">إضافة إلى السلة</button>
+                            <button class="more"><a href="man-prod1.html">المزيد</a></button>
+                        </div>
+                  <!--20-->
+                  <div class="mix white">
+                        <div class="sh-img">
+                            <img src="img/women-white-color/shoes-type6-4-1.jpg" class="product-img">
+                        </div>
+                        <div class="inf-pro">
+                            <h2 class="product-title">Nike Shoes White BS</h2>
+                            <div>
+                                <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            </div>
+                            <h3><del>70₪ </del><span class="price">35₪ </span></h3>
+                        </div>
+                            <button class="add-cart">إضافة إلى السلة</button>
+                            <button class="more"><a href="man-prod1.html">المزيد</a></button>
+                        </div>
+                  <!--21-->
+                 <div class="mix white">
+                        <div class="sh-img">
+                            <img src="img/women-white-color/shoes-type7-2-1.jpg" class="product-img">
+                        </div>
+                        <div class="inf-pro">
+                            <h2 class="product-title">Nike Shoes White-Black</h2>
+                            <div>
+                                <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            </div>
+                            <h3><del>90₪ </del><span class="price">45₪ </span></h3>
+                        </div>
+                            <button class="add-cart">إضافة إلى السلة</button>
+                            <button class="more"><a href="man-prod1.html">المزيد</a></button>
+                        </div>
+                  <!--22-->
+                  <div class="mix white">
+                        <div class="sh-img">
+                            <img src="img/women-white-color/shoes-type8-2-1.png" class="product-img">
+                        </div>
+                        <div class="inf-pro">
+                            <h2 class="product-title">Nike Shoes White-orange</h2>
+                            <div>
+                                <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            </div>
+                            <h3><del>90₪ </del><span class="price">45₪ </span></h3>
+                        </div>
+                            <button class="add-cart">إضافة إلى السلة</button>
+                            <button class="more"><a href="man-prod1.html">المزيد</a></button>
+                        </div>
+                  <!--23-->
+                  <div class="mix white">
+                        <div class="sh-img">
+                            <img src="img/women-white-color/shoes-type8-4-1.png" class="product-img">
+                        </div>
+                        <div class="inf-pro">
+                            <h2 class="product-title">Nike Shoes White-green</h2>
+                            <div>
+                                <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            </div>
+                            <h3><del>100₪ </del><span class="price">50₪ </span></h3>
+                        </div>
+                            <button class="add-cart">إضافة إلى السلة</button>
+                            <button class="more"><a href="man-prod1.html">المزيد</a></button>
+                        </div>  
+            </div>
+        </div>
+    </sectoin>
+    <!--Scriprt-->
+    <script src="js/gsap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    
+    <script>
+        var products = document.querySelector('.products');
+        var mixer = mixitup(products);
+
+        let market = document.querySelector('.cart-icon')
+        /* Toggle list */
+        toggle.onclick = function(){
+            toggle.style.display='none';
+            nav_logo.style.display='none';
+            market.style.display='none';
+            nav.style.display='flex';
+            close.style.display='block';
+        };
+        close.onclick = function(){
+            nav.style.display='none';
+            nav_logo.style.display='block';
+            toggle.style.display = 'block';
+            market.style.display='block';
+            close.style.display='none';
+        };
+    </script>    
+</body>
+</html>

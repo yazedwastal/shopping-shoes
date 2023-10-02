@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- Coding by CodingNepal | www.codingnepalweb.com-->
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8">
+    <title> Login and Registration Form in HTML & CSS | CodingLab </title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;1,100&family=Borel&family=Cairo:wght@300&family=Lobster&family=Lora:ital@1&display=swap');
+      </style>
+    <section id="login">
+  <div class="container-log">
+    <input type="checkbox" id="flip">
+    <div class="cover">
+      <div class="front">
+        <img src="img/man-shoes.jpg" alt="">
+        <div class="text">
+          <span class="text-1">كل صديق جديد هو  <br> مغامرة جديدة</span>
+          <span class="text-2"> دعونا نتواصل </span>
+        </div>
+      </div>
+    </div>
+    <div class="forms">
+        <div class="form-content">
+          <div class="login-form">
+            <div class="title">إنشاء حساب</div>
+          <form action="#">
+            <div class="input-boxes">
+                <div class="input-box">
+                    <i class="fa-solid fa-font"></i>
+                <input type="text" placeholder="الرجاء إدخال الاسم " required>
+              </div>
+              <div class="input-box">
+                <i class="fas fa-envelope"></i>
+                <input type="text" placeholder="الرجاء إدخال الايميل" required>
+              </div>
+              <div class="input-box">
+                <i class="fas fa-lock"></i>
+                <input type="password" placeholder="الرجاء إدخال كلمة المرور" required>
+              </div>
+              
+              <div class="button input-box">
+                <input type="submit" value="إنشاء">
+              </div>
+              <div class="text sign-up-text">لديك حساب ؟ <label for="flip"> تسجيل دخول</label></div>
+            </div>
+        </form>
+      </div>
+        <div class="signup-form">
+          <div class="title">تسجيل الدخول</div>
+        <form action="#">
+            <div class="input-boxes">
+              <div class="input-box">
+                <i class="fas fa-envelope"></i>
+                <input type="text" placeholder="الرجاء إدخال الايميل" required>
+              </div>
+              <div class="input-box">
+                <i class="fas fa-lock"></i>
+                <input type="password" placeholder="الرجاء إدخال كلمة المرور" required>
+              </div>
+              <div class="text"><a href="#"> هل نسيت كلمة المرور؟</a></div>
+              <div class="button input-box">
+                <input type="submit" value="دخول">
+              </div>
+              <div class="text sign-up-text"> ليس لديك حساب ؟ <label for="flip"> إنشاء حساب </label></div>
+            </div>
+      </form>
+    </div>
+    </div>
+    </div>  
+  </div>
+</section>
+<div class="back-home">
+    <a class="back-home" href="index.html"><span>الرجوع للقائمة الرئيسية <i class="fa-solid fa-arrow-left"></i></span></a>
+</div>
+</body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo-5.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>رجالي-منتج أول</title>
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;1,100&family=Borel&family=Cairo:wght@300&family=Lobster&family=Lora:ital@1&display=swap');
+      </style>
+      <nav>
+        <div class="cart-all">
+            <i class="fa-solid fa-cart-shopping cart-icon"></i>
+       </div>
+       <a class="back-home" href="index.html"><span>الرجوع للقائمة الرئيسية <i class="fa-solid fa-arrow-left"></i></span></a>
+        <div class="logo">
+            <a href="index.html"><h1><span>يـزيـد</span> | Shopping <i class="fa-solid fa-cart-arrow-down"></i></h1></a>          
+        </div>
+     </nav>
+     <!--Cart-->
+     <div class="cart">
+        <h2 class="cart-title">عربة التسوق الخاص بك</h2>
+        <div class="cart-content">
+            
+        </div>
+        <!--Total Price-->
+        <div class="total">
+            <h4 class="total-title">السعر الكلي</h4>
+            <span class="totla-price">₪ 0</span>
+        </div>
+        <!--Buy Button-->
+        <button class="btn-buy">إشتري الان</button>
+        <!--Cart Close-->
+        <i class="fa-solid fa-xmark" id="close-cart"></i>
+     </div>
+     <section id="man-product1">
+        <div class="all-inf-prod1 products">
+            <div class="rtl-pg-prod1">
+                <h2 class="product-title">Nike Black W</h2>
+                <p>تمتع بأحذية رجالية عالمية الصنع ،
+                    <br> وبجودة عالية وسعر مميز .
+                </p>
+                <div class="pic-small">
+                    <img class="l-m-shoes1" src="img/black-shoes-man/shoes-type3-3-1.png" alt="">
+                    <img class="l-m-shoes2" src="img/black-shoes-man/shoes-type3-3-2.png" alt="">
+                    <img class="l-m-shoes3" src="img/black-shoes-man/shoes-type3-3-3.png" alt="">
+                    <img class="l-m-shoes4" src="img/black-shoes-man/shoes-type3-3-4.png" alt="">
+                </div>
+            </div>
+            <div class="pic-big">
+                <img class="big-shoes product-img" src="img/black-shoes-man/shoes-type3-3-1.png" alt="">
+            </div>
+            <div class="ltr-pg-prod1">
+                <h3>الحجم</h3>
+                <div class="size">
+                    <span>40</span>
+                    <span>41</span>
+                    <span>42</span>
+                    <span>43</span>
+                    <span>44</span>
+                </div>
+                <div class="review">
+                    <div>
+                        <h3>المشاهدات</h3>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+                <div class="prices">
+                    <div>
+                        <h3>السعر</h3>
+                    </div>
+                    <div>
+                       <span class="price">35₪</span>
+                    </div>
+                </div>
+                <div class="btn-cart">
+                    <button class="add-cart">إضافة إلى السلة</button>
+                </div>
+            </div>
+        </div>
+     </section>
+     <!-- footer -->
+    <footer id="footer">
+        <div class="footer">
+            <div class="logo">
+                <a href="index.html"><h1><span>يـزيـد</span> | Shopping <i class="fa-solid fa-cart-arrow-down"></i></h1></a>          
+            </div>
+            <div class="contact">
+                <div>
+                    <h2>العنوان :</h2>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>فلسطين - غزة</span>
+                </div>
+                <div>
+                    <h2>تواصل معنا :</h2>
+                    <i class="fa-solid fa-phone"></i>
+                    <span> +970 567 076 576 </span>
+                </div>
+            </div>
+            <div class="social">
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <div class="save">
+            جميع الحقوق محفوظة &copy; 2023
+        </div>
+    </footer>
+     <script src="js/main.js"></script>
+     <script>
+        document.querySelectorAll('.l-m-shoes1').forEach(image_1 =>{
+    image_1.addEventListener('click', () =>{
+        var src = image_1.getAttribute('src');
+        document.querySelector('.big-shoes').src =src;
+    });
+});
+
+document.querySelectorAll('.l-m-shoes2').forEach(image_2 =>{
+    image_2.addEventListener('click', () =>{
+        var src = image_2.getAttribute('src');
+        document.querySelector('.big-shoes').src =src;    
+    });
+});
+document.querySelectorAll('.l-m-shoes3').forEach(image_3 =>{
+    image_3.addEventListener('click', () =>{
+        var src = image_3.getAttribute('src');
+        document.querySelector('.big-shoes').src =src; 
+    });
+});
+document.querySelectorAll('.l-m-shoes4').forEach(image_3 =>{
+    image_3.addEventListener('click', () =>{
+        var src = image_3.getAttribute('src');
+        document.querySelector('.big-shoes').src =src; 
+    });
+});
+     </script>
+</body>
+</html>
